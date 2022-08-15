@@ -10,13 +10,7 @@ html {
 }
 
 body {
-  /* font-family: "PF Agora Sans Pro Medium", sans-serif; */
-  /* font-family: "PF Agora Sans Pro", sans-serif; */
-  /* font-family: "PF Agora Sans Pro XThin", sans-serif; */
-  /* font-family: "PF Agora Sans Pro Thin", sans-serif;  */
-  font-family: "PF Agora Sans Pro Light", sans-serif;
-  /* font-family: "PF Agora Sans Pro Black", sans-serif; */
-  /* font-family: "PF Agora Sans Pro UltraBlack", sans-serif; */
+  font-family: "SVN-Gilroy", sans-serif;
 }
 
 a {
@@ -35,6 +29,133 @@ img {
 }
 
 .container {
-  max-width: 108rem;
+  max-width: 1024px;
   margin: 0 auto;
 }
+
+.btn {
+  padding: 18px 44px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  border-radius: 4px;
+  border: 1px solid;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* -------- -------- */
+
+/* -------- Start Header -------- */
+.header-top {
+  padding: 13px 0;
+  background-color: #000;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.header-top__inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-top__item {
+  display: flex;
+  margin-right: 3.1rem;
+}
+
+.header-top__item:last-child {
+  margin-right: 0;
+}
+
+.header-top__item--icon {
+  margin-right: 1.2rem;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.7rem;
+  background-color: #d7d6d66e;
+}
+
+.header-main__logo {
+  margin-left: 10rem;
+}
+
+.header-main__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-main__list--item {
+  margin-right: 4rem;
+}
+
+.header-main__list--item__link {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.header-main__list--icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* -------- End Header -------- */
+
+/* -------- Start Banner -------- */
+.overlay {
+  background-image: url("./images/banner-bg-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 107rem;
+}
+
+.banner {
+  height: calc(100% - 68px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.banner-content {
+  text-align: center;
+  margin-bottom: 16rem;
+}
+
+.banner-content__title,
+.banner-content__des {
+  font-size: 36.66px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.banner-content__title {
+  display: inline-block;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid red;
+  margin-bottom: 4.5rem;
+}
+
+.banner-content__des {
+  margin-bottom: 5rem;
+}
+
+.banner-content__btn--view {
+  margin-right: 114px;
+}
+
+.banner-content__btn--download {
+  background-color: #fff;
+  color: #b9b6ad;
+}
+
+/* -------- End Banner -------- */
