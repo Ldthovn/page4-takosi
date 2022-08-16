@@ -14,6 +14,11 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -64,41 +69,154 @@
               >Đăng ký bán hàng</a
             >
           </li>
-          <li class="header-main__list--item">
+          <li class="header-main__list--item hover-btn-search">
             <em class="fa fa-magnifying-glass header-main__list--icon"></em>
+            <div class="header-btn__search">
+              <div class="header-btn__search--wrapper">
+                <em class="fa fa-magnifying-glass"></em>
+                <input
+                  type="search"
+                  placeholder="Tìm kiếm sản phẩm, mã sản phẩm ..."
+                />
+              </div>
+            </div>
           </li>
         </ul>
-      </div>
-      <div class="header-btn__search">
-        <div class="header-btn__search--wrapper">
-          <em class="fa fa-magnifying-glass"></em>
-          <input
-            type="search"
-            placeholder="Tìm kiếm sản phẩm, mã sản phẩm ..."
-          />
-        </div>
       </div>
 
       <!-- -------- End Header Main -------- -->
 
       <!-- -------- Start Banner -------- -->
 
-      <div class="banner">
-        <div class="banner-content">
-          <div class="banner-content__title">Catalogue 08.2021</div>
-          <div class="banner-content__des">
-            Với những sản phẩm ưu việt mang phong cách Japanese
-          </div>
-          <div class="banner-content__btn">
-            <a href="#" class="banner-content__btn--view btn">Xem ngay</a>
-            <a href="#" class="banner-content__btn--download btn">Tải về</a>
+      <div class="slider-banner">
+        <div class="banner-item">
+          <div class="banner fade">
+            <div class="banner-content">
+              <div class="banner-content__title">Catalogue 08.2021</div>
+              <div class="banner-content__des">
+                Với những sản phẩm ưu việt mang phong cách Japanese
+              </div>
+              <div class="banner-content__btn">
+                <a href="#" class="banner-content__btn--view btn">Xem ngay</a>
+                <a href="#" class="banner-content__btn--download btn">Tải về</a>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="banner-item">
+          <div class="banner fade banner2">
+            <div class="banner-content">
+              <div class="banner-content__title">Catalogue 09.2021</div>
+              <div class="banner-content__des">
+                Với những sản phẩm ưu việt mang phong cách Japanese
+              </div>
+              <div class="banner-content__btn">
+                <a href="#" class="banner-content__btn--view btn">Xem ngay</a>
+                <a href="#" class="banner-content__btn--download btn">Tải về</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-item">
+          <div class="banner fade banner3">
+            <div class="banner-content">
+              <div class="banner-content__title">Catalogue 10.2021</div>
+              <div class="banner-content__des">
+                Với những sản phẩm ưu việt mang phong cách Japanese
+              </div>
+              <div class="banner-content__btn">
+                <a href="#" class="banner-content__btn--view btn">Xem ngay</a>
+                <a href="#" class="banner-content__btn--download btn">Tải về</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="slider-banner__prev" onclick="plusSlides(-1)">❮</a>
+        <a class="slider-banner__next" onclick="plusSlides(1)">❯</a>
       </div>
 
       <!-- -------- End Banner -------- -->
     </div>
 
     <!-- -------- End Header -------- -->
+
+    <!-- -------- Start Contact -------- -->
+    <div class="contact">
+      <div class="container-fluid contact-inner">
+        <div class="contact-top">
+          <img src="./images/contact-loho.png" alt="" />
+          <div class="contact-top__text">
+            <span>Thiết bị vệ sinh Takosi </span> trực thuộc công ty TNHH Thương
+            Mại và Dịch Vụ XNK SAO XANH Chuyên sản xuất và phân phối thiết bị vệ
+            sinh chất lượng cao. Với mục tiêu mang đến một không gian sống hiện
+            đại và tiện nghi, chúng tôi không ngừng nỗ lực cung cấp ra thị
+            trường những sản phẩm chất lượng tới tay người tiêu dùng. Cùng với
+            đó là dịch vụ tư vấn, chăm sóc, bảo hành, để mỗi khách hàng đều yên
+            tâm và tin tưởng khi sử dụng các sản phẩm của <span>Takosi</span>.
+          </div>
+        </div>
+        <div class="contact-bottom">
+          <a href="#" class="contact-bottom__btn btn">Liên hệ làm đại lý</a>
+          <div class="contact-bottom__text">
+            Đồng thời, khi nhu cầu xây dựng, kiến thiết nhà cửa công trình ngày
+            càng gia tăng, chúng tôi luôn sẵn sàng đồng hành, phát triển cùng
+            Quý đối tác để giúp cho lĩnh vực thiết bị vệ sinh ngày càng phát
+            triển mạnh mẽ tại Việt Nam.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------- End Contact -------- -->
+
+    <!-- -------- Start Product -------- -->
+    <div class="product">
+      <div class="product-inner">
+        <img
+          src="./images/product-toilet.png"
+          alt=""
+          class="product-img product-toilet"
+        />
+        <div class="product-row">
+          <img
+            src="./images/product-washbasin.png"
+            alt=""
+            class="product-img product-washbasin"
+          />
+          <img
+          src="./images/product-faucet.png"
+          alt=""
+          class="product-img product-faucet"
+        />
+        </div>
+        <div class="product-row">
+          <img
+            src="./images/product-shower.png"
+            alt=""
+            class="product-img product-shower"
+          />
+          <img
+          src="./images/product-faucet.png"
+          alt=""
+          class="product-img product-faucet"
+        />
+        </div>
+      </div>
+    </div>
+
+    <!-- -------- End Product -------- -->
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./app.js"></script>
   </body>
 </html>
