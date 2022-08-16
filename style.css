@@ -417,7 +417,17 @@ img {
   display: flex;
 }
 
-.product-row img {
+.product-washbasin,
+.product-faucet {
   width: 50%;
+}
+
+.product-shower {
+  width: calc(100% - 687.5px);
+}
+
+.product-all {
+  width: 687.5px;
+  background-color: #000;
 }
 /* -------- End Product -------- */
